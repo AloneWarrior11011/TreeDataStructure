@@ -159,8 +159,11 @@ class Solution {
          help(root->right, nodes);
      }
     /*You are required to complete below function */
-    int pairsViolatingBST(int n, Node *root) {
-        // your code goes 
+    int pairsViolatingBST(int n, Node *root) {'
+        
+        // IF INORDER TRAVERSAL OF BST IS NOT IN PROPER ASCENDING ORDER THEN BY SORTING ALGO WHAT THE NUMBER OF SWAPPING NEEDS TO SORT THE INORDER ARRAY 
+        // WILL BE THE PAIRS THAT VIOLATES BST PROPERTY THIS IS LOGIC BEHING THIS PROGRAM.
+        
         // step 1 : find inorder of the bst
         vector<int> nodes;
         help(root, nodes);
