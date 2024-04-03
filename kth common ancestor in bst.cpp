@@ -36,11 +36,11 @@ class Solution
         if(!root) return;
         
         ans.push_back(root->data);
-        if(root->data < x && root->data < y){
-            solve(root->right, k, x, y, ans);
-        }
-        else if(root->data > x && root->data > y){
+        if(root->data > x && root->data > y){
             solve(root->left, k, x, y, ans);
+        }
+        else if(root->data < x && root->data < y){
+            solve(root->right, k, x, y, ans);
         }
     }
     /*You are required to complete below function */
