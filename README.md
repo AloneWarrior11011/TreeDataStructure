@@ -30,3 +30,36 @@
 <li>Data Compression: Trees are used in data compression algorithms like Huffman coding to efficiently encode and decode data.</li>
   </ol>
 </div>
+<div>
+  
+  ## Types Of Trees We Have ->
+
+
+  There are several types of tree data structures, each with its own characteristics and uses. Here are some common types of tree data structures:
+  <hr>
+1. **Binary Tree:** A binary tree is a tree in which each node has at most two children, referred to as the left child and the right child. This is a simple and widely used type of tree.
+
+   ![Binary Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/400px-Binary_tree.svg.png)">
+<hr>
+2. **Binary Search Tree (BST):** A binary search tree is a binary tree in which the value of each left child is less than the value of its parent node, and the value of each right child is greater than the value of its parent node. This property makes binary search trees useful for searching and sorting operations.
+
+   ![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/400px-Binary_search_tree.svg.png)
+<hr>
+3. **AVL Tree:** An AVL tree is a self-balancing binary search tree in which the heights of the two child subtrees of any node differ by at most one. This balancing property ensures that the tree remains balanced and maintains a logarithmic height for efficient operations.
+
+   ![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/AVL_Tree_Example.gif/400px-AVL_Tree_Example.gif)
+<hr>
+4. **Red-Black Tree:** A red-black tree is another type of self-balancing binary search tree in which each node is colored red or black. The tree is balanced using specific rules for coloring and rotations, ensuring that the tree remains balanced and maintains a logarithmic height.
+
+   ![Red-Black Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Red-black_tree_example.svg/400px-Red-black_tree_example.svg.png)
+<hr>
+5. **B-Tree:** A B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. B-trees are commonly used in databases and file systems.
+
+   ![B-Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/B-tree.svg/400px-B-tree.svg.png)
+<hr>
+6. **Trie:** A trie, also known as a prefix tree, is a tree data structure used for storing a dynamic set of strings. Each node in the trie represents a common prefix of its descendants, and the root is an empty string. Tries are efficient for searching for strings with a common prefix.
+
+   ![Trie](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/400px-Trie_example.svg.png)
+<hr>
+These are just a few examples of tree data structures, each with its own unique properties and applications.
+</div>
