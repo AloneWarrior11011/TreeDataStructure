@@ -1,4 +1,4 @@
-# Binary Tree And Binary Search Tree Based Practice Problems
+# Binary Trees
 
 ## Binary Tree Structure ->
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221124153129/Treedatastructure.png" alt="tree-structure" title="tree-structure">
